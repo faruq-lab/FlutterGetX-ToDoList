@@ -40,49 +40,50 @@ class DefaultFirebaseOptions {
     }
   }
 
+  //'xxx' should be your own key to specify your firebase
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyBhQpMDBrx9qw6_q4deZBRLZAhQ6rrl0IQ',
-    appId: '1:543994850528:web:8ba0d8cc94b405c225b485',
-    messagingSenderId: '543994850528',
-    projectId: 'fluttergetx1',
-    authDomain: 'fluttergetx1.firebaseapp.com',
-    storageBucket: 'fluttergetx1.appspot.com',
-    measurementId: 'G-35MNQ5T3DC',
+    apiKey: 'xxx',
+    appId: 'xxx',
+    messagingSenderId: 'xxx',
+    projectId: 'xxx',
+    authDomain: 'xxx.firebaseapp.com',
+    storageBucket: 'xxx.appspot.com',
+    measurementId: 'xxx',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyAioHYQiA0nhlPOQO2JO_K41n_CsTti510',
-    appId: '1:543994850528:android:08da6e4554ae6a5125b485',
-    messagingSenderId: '543994850528',
-    projectId: 'fluttergetx1',
-    storageBucket: 'fluttergetx1.appspot.com',
+    apiKey: 'xxx',
+    appId: 'xxx',
+    messagingSenderId: 'xxx',
+    projectId: 'xxx',
+    storageBucket: 'xxx',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyDYPZjppB2LVrw2p_Sboo6ob0881_TZeU8',
-    appId: '1:543994850528:ios:3bb8ffe9f1beaab425b485',
-    messagingSenderId: '543994850528',
-    projectId: 'fluttergetx1',
-    storageBucket: 'fluttergetx1.appspot.com',
-    iosBundleId: 'com.example.flutterGetx11',
+    apiKey: 'xxx',
+    appId: 'xxx',
+    messagingSenderId: 'xxx',
+    projectId: 'xxx',
+    storageBucket: 'xxx.appspot.com',
+    iosBundleId: 'com.example.xxx',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyDYPZjppB2LVrw2p_Sboo6ob0881_TZeU8',
-    appId: '1:543994850528:ios:3bb8ffe9f1beaab425b485',
-    messagingSenderId: '543994850528',
-    projectId: 'fluttergetx1',
-    storageBucket: 'fluttergetx1.appspot.com',
-    iosBundleId: 'com.example.flutterGetx11',
+    apiKey: 'xxx',
+    appId: 'xxx',
+    messagingSenderId: 'xxx',
+    projectId: 'xxx',
+    storageBucket: 'xxx.appspot.com',
+    iosBundleId: 'com.example.xxx',
   );
 
   static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'AIzaSyBhQpMDBrx9qw6_q4deZBRLZAhQ6rrl0IQ',
-    appId: '1:543994850528:web:df3655632e3c9aad25b485',
-    messagingSenderId: '543994850528',
-    projectId: 'fluttergetx1',
-    authDomain: 'fluttergetx1.firebaseapp.com',
-    storageBucket: 'fluttergetx1.appspot.com',
-    measurementId: 'G-5TJJJ0JN34',
+    apiKey: 'xxx',
+    appId: 'xxx',
+    messagingSenderId: 'xxx',
+    projectId: 'xxx',
+    authDomain: 'xxx.firebaseapp.com',
+    storageBucket: 'xxx.appspot.com',
+    measurementId: 'xxx',
   );
 }
